@@ -5,15 +5,13 @@ while inp < 5:
     print('[1] räkna med +')
     print('[2] räkna med -')
     print('[3] räkna med *')
-    print('[4] valfritt arbete vet ej om jag vill ')
+    print('[4] räkna med /')
     print('[5] avsluta')
     print('om du skriver 0 skippar du tillbaka till menyn och får ut ditt resultat')
     inp=int(input('vad vill du göra? skriv från 1 till 5:'))
     while inp == 1:
         plus=float(input('skriv en siffra:'))
-        
         resultat=plus + resultat
-        
         if plus == 0: 
             print(resultat)
             inp = 0
@@ -32,13 +30,25 @@ while inp < 5:
                 print(resultat) 
                 inp = 0
             
-            
     while inp == 3:
-        print('b')
-        break
+        resultat = 1
+        while inp == 3:
+            gånger=float(input('skriv en siffra:'))
+            if gånger == 0: 
+                print(resultat)
+                inp = 0
+            resultat=gånger * resultat
+        
+            
+        
     while inp == 4:
-        print('b')
-        break
+        täljare=float(input('skriv en täljare:'))
+        nämnare=float(input('skriv en nämnare:'))
+        resultat=täljare / nämnare
+        while inp == 4
+        if plus == 0: 
+            print(resultat)
+            inp = 0
 
 
 
