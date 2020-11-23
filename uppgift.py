@@ -44,13 +44,12 @@ while inp < 5:
     while inp == 4:
         täljare=float(input('skriv en täljare:'))
         nämnare=float(input('skriv en nämnare:'))
-        resultat=täljare / nämnare
-        while inp == 4
-        if plus == 0: 
-            print(resultat)
-            inp = 0
-
-
-
-
+        resultat= täljare / nämnare
+        while inp == 4:
+            nämnare=float(input('skriv en nämnare:'))
+            if nämnare == 0: 
+                print(resultat)
+                inp = 0
+            else:
+                resultat= resultat / nämnare
 print('stänger av')
