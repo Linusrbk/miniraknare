@@ -1,0 +1,6 @@
+print('välkommen till miniräknaren')
+print('[1] räkna med +')
+print('[2] räkna med -')
+print('[3] räkna med *')
+print('[4] valfritt arbete vet ej om jag vill ')
+print('[5] avsluta')
